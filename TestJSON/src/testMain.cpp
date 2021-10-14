@@ -7,8 +7,9 @@ using namespace json;
 
 static int test_parse_null() {
     JsonValue v;
+    JsonParser parser;
     v.setType(VALUETYPE_BOOL);
-    EXPECT_EQ_INT(PARSERESULT_OK, JsonParser::Parese(&v, "null"));
+    EXPECT_EQ_INT(PARSERESULT_OK, parser.parese(&v, "null"));
     EXPECT_EQ_INT(VALUETYPE_NULL, v.getType());
     return 0;
 }
