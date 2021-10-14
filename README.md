@@ -36,11 +36,18 @@ This is practice project, and it's in the early stage of developments at present
 
 ## Task
 - [ ] 测试框架
-    - [ ] 功能测试
-        - [x] 初步搭建
-        - [ ] 较为完善
-        - [ ] 可以了
-    - [ ] 单元测试
+  - [ ] 功能测试
+      - [x] 初步搭建
+      - [ ] 较为完善
+      - [ ] 可以了
+  - [ ] 单元测试
 - [ ] Json解析功能
+  - [ ] 数值
+    - Doing
+  - [ ] 布尔值 
+  - [ ] 字符串
+    - Doing
+  - [ ] 列表
+  - [ ] 对象 
 - [ ] Json操纵
 - [ ] Json持久化
